@@ -526,6 +526,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-6{
+  width: 1.5rem;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .justify-end{
   justify-content: flex-end;
 }
@@ -767,6 +775,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:flex{
     display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 
   .md\:grid-cols-3{
