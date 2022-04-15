@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-5{
   height: 1.25rem;
 }
@@ -534,12 +538,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
+.items-center{
+  align-items: center;
+}
+
 .justify-end{
   justify-content: flex-end;
 }
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-10{
@@ -771,6 +783,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .md\:block{
+    display: block;
   }
 
   .md\:flex{
